@@ -1,5 +1,5 @@
 import React from "react";
-import {Text, View, TextInput, StyleSheet} from "react-native";
+import {View, TextInput, StyleSheet} from "react-native";
 import {Feather} from "@expo/vector-icons";
 
 function SearchBar({ term, onTermChange, onTermSubmit }) {
@@ -24,6 +24,7 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         height: 50,
         marginTop: 10,
+        marginBottom: 10,
         backgroundColor: "#e7e6e6",
         marginHorizontal: 15,
         borderRadius: 5
